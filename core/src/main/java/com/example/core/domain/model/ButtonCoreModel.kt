@@ -1,6 +1,6 @@
 package com.example.core.domain.model
 
-class ButtonFeatureModel(
+class ButtonCoreModel(
     val text: String? = null
 ) {
 }

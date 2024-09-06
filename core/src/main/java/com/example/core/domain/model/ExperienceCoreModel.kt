@@ -4,7 +4,7 @@ package com.example.core.domain.model
 import com.example.mainlist.domain.model.ExperienceMainFragmentModel
 
 
-class ExperienceFeatureModel(
+class ExperienceCoreModel(
     private val previewText: String,
     private val text: String
 ) {

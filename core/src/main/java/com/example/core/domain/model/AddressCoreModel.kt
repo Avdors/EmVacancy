@@ -3,7 +3,7 @@ package com.example.core.domain.model
 import com.example.mainlist.domain.model.AddressMainFragmentModel
 
 
-class AddressFeatureModel(
+class AddressCoreModel(
    private val town: String,
    private val street: String,
    private val house: String

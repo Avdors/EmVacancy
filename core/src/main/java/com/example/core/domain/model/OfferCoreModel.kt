@@ -1,14 +1,13 @@
 package com.example.core.domain.model
 
-import com.example.mainlist.domain.model.Button
 import com.example.mainlist.domain.model.OfferMainFragmentModel
 
 
-class OfferFeatureModel(
+class OfferCoreModel(
     private val id: String,
     private val title: String,
     private val link: String,
-    private val button: ButtonFeatureModel
+    private val button: ButtonCoreModel
 ){
 
     fun toFeatureModel(): OfferMainFragmentModel {

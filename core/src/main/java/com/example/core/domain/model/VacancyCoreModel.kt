@@ -4,16 +4,16 @@ package com.example.core.domain.model
 import com.example.mainlist.domain.model.VacancyMainFragmentModel
 
 
-class VacancyFeatureModel(
+class VacancyCoreModel(
     private val id: String,
     private val lookingNumber: Int,
     private val title: String,
-    private val address: AddressFeatureModel,
+    private val address: AddressCoreModel,
     private val company: String,
-    private val experience: ExperienceFeatureModel,
+    private val experience: ExperienceCoreModel,
     private val publishedDate: String,
     private val isFavorite: Boolean,
-    private val salary: SalaryFeatureModel,
+    private val salary: SalaryCoreModel,
     private val schedules: List<String>,
     private val appliedNumber: Int,
     private val description: String,

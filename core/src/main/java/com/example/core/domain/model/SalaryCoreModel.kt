@@ -3,7 +3,7 @@ package com.example.core.domain.model
 import com.example.mainlist.domain.model.SalaryMainFragmentModel
 
 
-class SalaryFeatureModel(
+class SalaryCoreModel(
     private val full: String,
 
     private val short: String
